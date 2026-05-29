@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/vcoach_ai/__init__.py
+src/vcoach_ai/config.py
+src/vcoach_ai/datasets.py
+src/vcoach_ai/export_tflite.py
+src/vcoach_ai/food101_labels.py
+src/vcoach_ai/metrics.py
+src/vcoach_ai/model.py
+src/vcoach_ai/predict.py
+src/vcoach_ai/train.py
+src/vcoach_ai.egg-info/PKG-INFO
+src/vcoach_ai.egg-info/SOURCES.txt
+src/vcoach_ai.egg-info/dependency_links.txt
+src/vcoach_ai.egg-info/top_level.txt
