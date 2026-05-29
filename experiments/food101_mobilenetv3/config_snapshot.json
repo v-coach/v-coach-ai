@@ -1,0 +1,32 @@
+{
+  "run_name": "food101_mobilenetv3",
+  "seed": 42,
+  "data": {
+    "source": "food101_archive",
+    "tfds_name": "food101",
+    "tfds_data_dir": "data/tfds",
+    "archive_root": "data/food101/food-101",
+    "local_train_dir": "data/food101/train",
+    "local_val_dir": "data/food101/validation",
+    "image_size": 224,
+    "batch_size": 32
+  },
+  "model": {
+    "backbone": "MobileNetV3Small",
+    "imagenet_weights": true,
+    "dropout_rate": 0.2,
+    "top_k": 5
+  },
+  "training": {
+    "frozen_epochs": 8,
+    "fine_tune_epochs": 12,
+    "frozen_learning_rate": 0.001,
+    "fine_tune_learning_rate": 0.0001,
+    "fine_tune_at_layer": 80
+  },
+  "outputs": {
+    "experiment_dir": "experiments",
+    "model_dir": "models",
+    "report_dir": "reports"
+  }
+}
