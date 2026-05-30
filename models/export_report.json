@@ -1,0 +1,6 @@
+{
+  "source_model": "experiments\\food101_mobilenetv3\\best.keras",
+  "output_model": "models\\food101_classifier.tflite",
+  "labels_file": "models\\food101_labels.json",
+  "float16": true
+}
