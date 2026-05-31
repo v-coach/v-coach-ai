@@ -1,0 +1,10 @@
+[2026-05-31 04:42:11] [INFO] Mounted at /content/drive successfully.
+[2026-05-31 04:42:15] [INFO] Loading FoodSeg103 dataset from HuggingFace...
+[2026-05-31 04:44:45] [INFO] [정밀 전처리] 샐러드 오탐지를 방어하는 청정 정답 마스크 생성 완료 (1,500장 추출)
+[2026-05-31 04:44:50] [INFO] 🚀 [학습 스타트] cuda(T4 GPU) 장비에서 샐러드 오탐지 방어벽 치며 학습 중...
+[2026-05-31 04:47:32] [INFO] 🔥 Epoch [1/3] 완료 - 손실률(Loss): 1.0083
+[2026-05-31 04:50:15] [INFO] 🔥 Epoch [2/3] 완료 - 손실률(Loss): 0.6095
+[2026-05-31 04:52:58] [INFO] 🔥 Epoch [3/3] 완료 - 손실률(Loss): 0.5723
+[2026-05-31 04:53:05] [INFO] PyTorch 원본 가중치 백업 완료 (/outputs/checkpoints/v_coach_food_model.pth)
+[2026-05-31 04:54:30] [INFO] 🔄 Keras 3.0 및 텐서플로우 컴파일러 기반 .tflite 고속 추출 엔진 가동...
+[2026-05-31 04:54:35] [INFO] ✅ 대성공! 샐러드 오탐지를 잡는 진짜 .tflite 파일 구글 드라이브 빌드 완료.

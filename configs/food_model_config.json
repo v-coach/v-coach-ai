@@ -1,0 +1,25 @@
+{
+  "project_name": "v-coach-ai",
+  "model_architecture": "UNet",
+  "input_shape": [1, 256, 256, 3],
+  "output_shape": [1, 256, 256, 6],
+  "hyperparameters": {
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 3,
+    "optimizer": "Adam",
+    "loss_function": "CrossEntropyLoss"
+  },
+  "dataset": {
+    "name": "FoodSeg103",
+    "train_samples": 1500,
+    "target_classes": {
+      "0": "background_and_vegetables_clean",
+      "1": "meat",
+      "2": "chicken",
+      "3": "seafood",
+      "4": "egg",
+      "5": "dairy"
+    }
+  }
+}

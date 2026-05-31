@@ -1,0 +1,15 @@
+===================================================================
+[훈련 하이퍼파라미터 및 학습 설정]
+===================================================================
+- Base Framework: PyTorch 2.0+ (CUDA Accelerated)
+- Conversion Target: Keras 3.0 & TensorFlow Lite (Android On-device)
+- Input Resolution: 256 x 256 x 3 (RGB)
+- Output Resolution: 256 x 256 x 6 (Segmentation Mask Channels)
+
+[주요 세팅 파라미터]
+- Epochs (학습 횟수): 3
+- Batch Size (묶음 크기): 32
+- Optimizer (최적화 알고리즘): Adam
+- Learning Rate (학습률): 0.001 (1e-3)
+- Loss Function (손실 함수): CrossEntropyLoss
+- Data Split: Train 2,000장 선별 추출 및 사전 리사이즈 전처리 적용

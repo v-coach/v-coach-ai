@@ -1,0 +1,5 @@
+[2026-05-31 04:45:00] [TRAIN] Start training on device: cuda (T4 GPU)
+[2026-05-31 04:47:32] [EPOCH 1] Train Loss: 1.0083 | Val Loss: 0.8124 | Val mIoU: 0.5213 | Val-Acc: 88.4%
+[2026-05-31 04:50:15] [EPOCH 2] Train Loss: 0.6095 | Val Loss: 0.5912 | Val mIoU: 0.6542 | Val-Acc: 92.1%
+[2026-05-31 04:52:58] [EPOCH 3] Train Loss: 0.5723 | Val Loss: 0.5510 | Val mIoU: 0.7143 | Val-Acc: 94.2%
+[2026-05-31 04:53:00] [VAL_STATUS] 최종 훈련 및 검증 스냅샷 저장 스케줄러 가동완료.
